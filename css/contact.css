@@ -1,0 +1,14 @@
+#contact {
+    width: 75%;
+    margin-left: 10%;
+    margin-top: 90px;
+}
+
+#contact-header {
+    margin-top: 20px;
+}
+
+#contact-1 {
+    background-color: #E5E5E5;
+    display: inline-block;
+}

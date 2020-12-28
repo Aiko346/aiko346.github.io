@@ -1,0 +1,37 @@
+.head-item {
+    margin-right: 40px;
+  }
+  
+  #first-head-item {
+    margin-left: 70px;
+  }
+ 
+#hi {
+    font-size: 72px;
+    font-weight: 700;
+}
+
+#about-p {
+    font-size: 36px;
+    width: 80%;
+}
+
+#about-div {
+  min-height: calc(100vh - 90px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 75%;
+  margin-left: 10%;
+  
+
+}
+
+/* 
+- figure out what rectangles do when screen is small enough
+-figure out how to center about minus header > make flex div height 100vh - 90px, margin 90px
+-finish links
+-add contact
+-figure out what about does when screen width is small
+-then add breakpoints for mobile 
+*/
