@@ -24,7 +24,8 @@
   flex-direction: column;
   justify-content: center;
   width: 75%;
-  margin-left: 10%;
+  /*margin-left: 10%;*/
+  margin: auto;
 }
 
 @media (max-width: 800px) {
