@@ -23,8 +23,32 @@
   justify-content: center;
   width: 75%;
   margin-left: 10%;
-  
+}
 
+@media (max-width: 800px) {
+  #about-div {
+    margin: auto;
+    width: 80%;
+  
+    min-height: calc(100vh - 60px);
+  }
+  #hi {
+    font-size: 9vw;
+  }
+  #about-p {
+    font-size: 4.5vw;
+    width: 90%;
+  }
+  #first-head-item {
+    margin-left: 0;
+  }
+  .head-item {
+    margin-right: 0;
+  }
+  #second-head-item{
+    margin-left: -150px;
+    margin-right: -150px;
+  }
 }
 
 /* 

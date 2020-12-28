@@ -131,10 +131,15 @@ a {
   color: black;
 }
 
-@media (max-width: 500px) {
-  .border {
-    /*width: 60vw;*/
+@media (max-width: 800px) {
+  h1 {
+    font-size: 6vw;
   }
+  header {
+    font-size: 3vw;
+    height: 60px;
+    justify-content: space-around;
+  } 
 }
 
 
