@@ -2,6 +2,7 @@
     width: 75%;
     margin-left: 10%;
     margin-top: 90px;
+    font-size: 24px;
 }
 
 #contact-header {
@@ -9,6 +10,14 @@
 }
 
 #contact-1 {
-    background-color: #E5E5E5;
+    /*background-color: #E5E5E5;*/
     display: inline-block;
+    margin-bottom: 90px;
+    
+}
+
+@media (max-width: 800px) {
+    #contact {
+    font-size: 3vw;
+    }
 }

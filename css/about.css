@@ -13,11 +13,13 @@
 
 #about-p {
     font-size: 36px;
-    width: 80%;
+    width: 90%;
 }
 
 #about-div {
   min-height: calc(100vh - 90px);
+ 
+ 
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -27,10 +29,10 @@
 
 @media (max-width: 800px) {
   #about-div {
-    margin: auto;
+    
     width: 80%;
-  
-    min-height: calc(100vh - 60px);
+    margin-top: -30px;
+    min-height: calc(100vh - 60px); 
   }
   #hi {
     font-size: 9vw;
@@ -48,6 +50,12 @@
   #second-head-item{
     margin-left: -150px;
     margin-right: -150px;
+  }
+}
+
+@media (max-width: 400px) {
+  #about-div {
+    margin-top: 0;
   }
 }
 
