@@ -52,13 +52,13 @@
   }
 }
 
-@media (max-width: 400px) {
+/*@media (max-width: 400px) {
   #about-div {
     margin-top: -40px;
   }
-}
+} */
 
-@media (max-height: 500px) {
+@media (max-height: 500px), (max-width: 400px) {
   #about-div {
       margin-top: 20px;
       height: auto;

@@ -51,11 +51,14 @@
     font-size: 18px;
 }
 
-#proj-1-img {
+.project-img {
     width: 100%;
     margin: auto;
 }
 
+#img-div-2 {
+    width: 35%;
+}
 .project-img-div {
     width: 50%;
     text-align: center;
@@ -91,5 +94,8 @@
         margin-top: 20px;
         width: 90%;
         text-align: center;
+    }
+    #img-div-2 {
+        width: 60%;
     }
 }
