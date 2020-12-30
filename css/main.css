@@ -133,6 +133,9 @@ h2 {
   height: 0px;
 }
 
+a:hover {
+  color: red;
+}
 
 a {
   text-decoration: none;
