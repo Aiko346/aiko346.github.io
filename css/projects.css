@@ -50,6 +50,7 @@
 .desc-text {
     font-size: 18px;
 }
+
 #proj-1-img {
     width: 100%;
     margin: auto;
@@ -66,9 +67,7 @@
       width: 80%;
      
     }
-    .desc-text {
-        font-size: 2.3vw;
-    }
+    
 }
 
 @media (max-width: 950px) {
@@ -82,10 +81,11 @@
         min-height: 0;
         width: 70%;
         margin: 20px 0 20px 0;
+        
     }
     .project-img-div {
         margin-top: 20px;
-       
+        width: 90%;
         text-align: center;
     }
 }

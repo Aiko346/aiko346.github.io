@@ -144,13 +144,11 @@ a {
     font-size: 6vw;
   }
   header {
-    font-size: 3vw;
+    font-size: 18px;
     height: 60px;
     justify-content: space-around;
   } 
-  h2 {
-    font-size: 3.1vw;
-  }
+  
 }
 
 
