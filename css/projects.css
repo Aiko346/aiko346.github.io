@@ -68,6 +68,10 @@
     color: gray;
 }
 
+.link-block:hover {
+    background: rgb(97, 97, 97);
+}
+
 @media (max-width: 800px) {
     #projects {
       

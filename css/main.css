@@ -133,7 +133,7 @@ h2 {
   height: 0px;
 }
 
-a:hover {
+.hover-link:hover {
   color: red;
 }
 

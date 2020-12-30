@@ -17,6 +17,11 @@
     
 }
 
+.contact-link {
+    color: gray;
+}
+
+
 @media (max-width: 800px) {
     #contact {
         font-size: 18px;
