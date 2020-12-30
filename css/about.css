@@ -62,6 +62,7 @@
   #about-div {
       margin-top: 20px;
       height: auto;
+      min-height: 0;
       display: block;
       
   }
