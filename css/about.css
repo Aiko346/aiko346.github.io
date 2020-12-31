@@ -22,8 +22,17 @@
   flex-direction: column;
   justify-content: center;
   width: 75%;
-  /*margin-left: 10%;*/
   margin: auto;
+}
+
+@media (min-width: 800px) {
+  #hi {
+    animation-name: hi-jump;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+  }
+
 }
 
 @media (max-width: 800px) {
@@ -52,12 +61,6 @@
   }
 }
 
-/*@media (max-width: 400px) {
-  #about-div {
-    margin-top: -40px;
-  }
-} */
-
 @media (max-height: 500px), (max-width: 400px) {
   #about-div {
       margin-top: 20px;
@@ -66,6 +69,11 @@
       display: block;
       
   }
+}
+
+@keyframes hi-jump {
+  0% {color:gray;}
+  100% {color: black;}
 }
 
 /* 
