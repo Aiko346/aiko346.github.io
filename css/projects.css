@@ -68,8 +68,13 @@
     color: gray;
 }
 
+.link-block {
+    transition: background-color 0.5s;
+}
+
 .link-block:hover {
-    background: rgb(97, 97, 97);
+    background-color: rgb(97, 97, 97);
+    
 }
 
 @media (max-width: 800px) {
