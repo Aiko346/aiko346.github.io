@@ -20,7 +20,6 @@
     display: flex;
     flex-direction: column;
     padding-top: 30px;
-    /* align-items: center; */
     width: 75vw;
 }
 
@@ -52,16 +51,20 @@
 }
 
 .project-img {
-    width: 100%;
+   
     margin: auto;
+    width: 100%;
 }
 
-#img-div-2 {
-    width: 35%;
-}
+
 .project-img-div {
     width: 50%;
     text-align: center;
+    overflow: hidden;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .projects-link {
@@ -90,7 +93,7 @@
     .project-rect {
         flex-direction: column;
         height: auto;
-      
+        
     }
     .project-desc {
         height: auto;
@@ -103,8 +106,7 @@
         margin-top: 20px;
         width: 90%;
         text-align: center;
+        height: auto;
     }
-    #img-div-2 {
-        width: 60%;
-    }
+    
 }
