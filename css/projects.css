@@ -67,6 +67,15 @@
     justify-content: center;
 }
 
+.mobile-project-img-div {
+    width: 25%;
+    text-align: center;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .projects-link {
     color: gray;
 }
@@ -103,6 +112,13 @@
         
     }
     .project-img-div {
+        margin-top: 20px;
+        width: 70%;
+        text-align: center;
+        height: auto;
+    }
+
+    .mobile-project-img-div {
         margin-top: 20px;
         width: 70%;
         text-align: center;
