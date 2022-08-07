@@ -1,14 +1,19 @@
+/* TODO: add some sort of table of contents list */
+
 #projects {
-   /* margin-top: 20vh; */
+    /* margin-top: 20vh; */
     /*margin-left: 10%;*/
     width: 75%;
     margin: auto;
-   
+
 }
 
 #projects-header {
     margin-top: 20px;
     margin-bottom: 0;
+    /* font-size: 48px;
+    font-weight: normal; */
+    /*margin-top: 0; */
 }
 
 #projects-subheading {
@@ -32,7 +37,7 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    
+
 }
 
 .project-desc {
@@ -43,7 +48,7 @@
     flex-direction: column;
     justify-content: center;
     padding: 0 20px 0 20px;
-    
+
 }
 
 .desc-text {
@@ -51,7 +56,7 @@
 }
 
 .project-img {
-   
+
     margin: auto;
     width: 100%;
 }
@@ -86,31 +91,33 @@
 
 .link-block:hover {
     background-color: rgb(97, 97, 97);
-    
+
 }
 
 @media (max-width: 800px) {
     #projects {
-      
-      width: 80%;
-     
+
+        width: 80%;
+
     }
-    
+
 }
 
 @media (max-width: 950px) {
     .project-rect {
         flex-direction: column;
         height: auto;
-        
+
     }
+
     .project-desc {
         height: auto;
         min-height: 0;
         width: 70%;
         margin: 20px 0 20px 0;
-        
+
     }
+
     .project-img-div {
         margin-top: 20px;
         width: 70%;
@@ -124,10 +131,5 @@
         text-align: center;
         height: auto;
     }
-    
-}
 
-/*
-add some sort of table of contents list 
- 
-*/
+}
