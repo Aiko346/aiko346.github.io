@@ -1,19 +1,13 @@
 /* TODO: add some sort of table of contents list */
 
 #projects {
-    /* margin-top: 20vh; */
-    /*margin-left: 10%;*/
     width: 75%;
     margin: auto;
-
 }
 
 #projects-header {
     margin-top: 20px;
     margin-bottom: 0;
-    /* font-size: 48px;
-    font-weight: normal; */
-    /*margin-top: 0; */
 }
 
 #projects-subheading {
